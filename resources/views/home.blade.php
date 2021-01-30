@@ -11,6 +11,7 @@
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
+                            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
                         </div>
                     @endif
 

@@ -6,3 +6,18 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Datatables
+@import '~datatables/media/css/jquery.dataTables.css';
+
+// Select2
+@import '~select2/dist/css/select2.css';
+
+.entry:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+hr {
+    width: 65%;
+    margin: 80px auto 60px;
+}
